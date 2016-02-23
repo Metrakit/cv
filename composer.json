@@ -1,0 +1,43 @@
+{
+    "name": "metrakit/cv",
+    "description": "My curriculum vitae",
+    "keywords": "cv resume web developper full-stack",
+    "website": "http://jordane.net",
+    "type": "cv",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordane Jouffroy",
+            "email": "contact@jordane.net"
+        }
+    ],
+    "require": {
+        "taskrunner/gulpjs": "*",
+        "taskrunner/gruntjs": "*",
+        "deployment/capistrano": "3.*",
+        "environment/vagrant": "3.*",
+        "versioning/git": "*",
+        "versioning/svn": "*"
+    },
+    "require-dev": {
+        "nodejs": "0.10.*|0.12.*|4.*|5.*",
+        "language/php": "4.*|5.*|7.*",
+        "language/javascript": "*",
+        "language/javascript": "*",
+        "language/scss": "*",
+        "language/scss": "*",
+        "language/ruby": "*",
+        "framework/laravel": "4.*|5.*",
+        "framework/symfony": "2.*",
+        "framework/zend": "1.*",
+        "framework/bootstrap": "3.*/4.*",
+        "framework/material": "*",
+        "framework/foundation": "*",
+        "framework/compass": "*",
+        "framework/express": "*",
+        "dbms/mysql": "*",
+        "dbms/mariadb": "*",
+        "dbms/mongodb": "*"
+    }
+}
