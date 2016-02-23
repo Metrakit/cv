@@ -9,7 +9,43 @@
     "authors": [
         {
             "name": "Jordane Jouffroy",
-            "email": "contact@jordane.net"
+            "email": "contact@jordane.net",
+            "homepage": "https://github.com/metrakit",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "company",
+            "package": {
+              "name": "gestadis/developer",
+              "version": "2014-now",
+            }
+        },
+        {
+            "type": "school",
+            "package": {
+              "name": "ipssi/student",
+              "version": "2014-2015",
+              "source": {
+                "url": "http://www.ecole-ipssi.com",
+                "type": "MASTER 1",
+                "reference": "project-manager/web-development"
+              }
+            }
+        },
+        {
+            "type": "project",
+            "package": {
+              "name": "minetop/developer",
+              "version": "2012-now",
+              "source": {
+                "url": "http://v2.minetop.net"
+              },
+              "source": {
+                "url": "http://minetop.net"
+              }
+            }
         }
     ],
     "require": {
@@ -39,5 +75,6 @@
         "dbms/mysql": "*",
         "dbms/mariadb": "*",
         "dbms/mongodb": "*"
-    }
+    },
+    "prefer-stable": true
 }
