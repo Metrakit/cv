@@ -52,7 +52,7 @@
         "taskrunner/gulpjs": "*",
         "taskrunner/gruntjs": "*",
         "deployment/capistrano": "3.*",
-        "environment/vagrant": "3.*",
+        "environment/vagrant": "*",
         "versioning/git": "*",
         "versioning/svn": "*"
     },
